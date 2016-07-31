@@ -1,0 +1,15 @@
+﻿<Window x:Class="NinthTask.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NinthTask"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button_Copy" Content="Open And Read File" HorizontalAlignment="Left" Margin="72,242,0,0" VerticalAlignment="Top" Width="122" Height="30" Click="button_Copy_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="74" Margin="72,64,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="369"/>
+        <Button x:Name="button_Copy1" Content="Write And Save File" HorizontalAlignment="Left" Margin="319,242,0,0" VerticalAlignment="Top" Width="122" Height="30" Click="button_Click"/>
+
+    </Grid>
+</Window>
